@@ -10,8 +10,8 @@
 		ACB1300C200098BF0053C472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1300B200098BF0053C472 /* AppDelegate.swift */; };
 		ACB1300E200098BF0053C472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1300D200098BF0053C472 /* ViewController.swift */; };
 		ACB13011200098BF0053C472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB1300F200098BF0053C472 /* Main.storyboard */; };
-		ACB13013200098BF0053C472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB13012200098BF0053C472 /* Assets.xcassets */; };
 		ACB13016200098BF0053C472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB13014200098BF0053C472 /* LaunchScreen.storyboard */; };
+		ACB1301E20009C430053C472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB1301D20009C340053C472 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		ACB1300B200098BF0053C472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB1300D200098BF0053C472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACB13010200098BF0053C472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACB13012200098BF0053C472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB13015200098BF0053C472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB13017200098BF0053C472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB1301D20009C340053C472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/18장/본문실습1/SwipeGesture/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				ACB1300B200098BF0053C472 /* AppDelegate.swift */,
 				ACB1300D200098BF0053C472 /* ViewController.swift */,
 				ACB1300F200098BF0053C472 /* Main.storyboard */,
-				ACB13012200098BF0053C472 /* Assets.xcassets */,
+				ACB1301D20009C340053C472 /* Assets.xcassets */,
 				ACB13014200098BF0053C472 /* LaunchScreen.storyboard */,
 				ACB13017200098BF0053C472 /* Info.plist */,
 			);
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB13016200098BF0053C472 /* LaunchScreen.storyboard in Resources */,
-				ACB13013200098BF0053C472 /* Assets.xcassets in Resources */,
+				ACB1301E20009C430053C472 /* Assets.xcassets in Resources */,
 				ACB13011200098BF0053C472 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
