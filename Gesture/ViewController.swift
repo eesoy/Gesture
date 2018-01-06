@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         view.addGestureRecognizer(pan)
         
         let long = UILongPressGestureRecognizer(target: self, action: #selector(longPressHandler(gesture:)))
-        imgLongPress.addGestureRecognizer(long)
+        imgLongPress.addGestureRecognizer(long) // Interaction 속성 true 설정!!!!
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(tapHandler(gesture:)))
         view.addGestureRecognizer(tap)
