@@ -26,6 +26,7 @@ class A: NSObject {
 class ViewController: UIViewController {
 
     @IBOutlet weak var imgRotation: UIImageView!
+    @IBOutlet weak var imgLongPress: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         let a = A()
@@ -37,7 +38,10 @@ class ViewController: UIViewController {
         view.addGestureRecognizer(pan)
         
         let long = UILongPressGestureRecognizer(target: self, action: #selector(longPressHandler(gesture:)))
-        view.addGestureRecognizer(long)
+        imgLongPress.addGestureRecognizer(long)
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapHandler(gesture:)))
+        view.addGestureRecognizer(tap)
     }
     
     @objc func rotationHandler(gesture: UIRotationGestureRecognizer) {
@@ -54,7 +58,12 @@ class ViewController: UIViewController {
     
     //롱프래스
     @objc func longPressHandler(gesture: UILongPressGestureRecognizer) {
-        
+         print("longPress")
+    }
+    
+    //탭
+    @objc func tapHandler(gesture: UITapGestureRecognizer) {
+        print("tap")
     }
 
     override func didReceiveMemoryWarning() {

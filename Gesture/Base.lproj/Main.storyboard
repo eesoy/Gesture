@@ -25,20 +25,31 @@
                                     <constraint firstAttribute="width" constant="240" id="kgm-Gx-HV2"/>
                                 </constraints>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-down-black" translatesAutoresizingMaskIntoConstraints="NO" id="3Jk-Ie-lan">
+                                <rect key="frame" x="73" y="474" width="62" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="CUH-bk-KnJ"/>
+                                    <constraint firstAttribute="width" constant="62" id="lJd-bi-xtd"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="3Jk-Ie-lan" firstAttribute="top" secondItem="HmQ-9P-tKB" secondAttribute="bottom" constant="77" id="Q4x-NT-2tS"/>
+                            <constraint firstItem="3Jk-Ie-lan" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="b8f-u0-eQn"/>
                             <constraint firstItem="HmQ-9P-tKB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dGa-6O-dbc"/>
                             <constraint firstItem="HmQ-9P-tKB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="enE-63-Gih"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="imgLongPress" destination="3Jk-Ie-lan" id="CFr-jO-IYA"/>
                         <outlet property="imgRotation" destination="HmQ-9P-tKB" id="qTP-DM-K4j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="109.59999999999999" y="33.733133433283363"/>
         </scene>
     </scenes>
     <resources>
